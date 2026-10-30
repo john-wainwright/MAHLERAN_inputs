@@ -1,0 +1,74 @@
+function [X Y Z] = edgecell1 (filename);
+
+ascfile = strcat (filename, '.asc');
+edgefile = strcat (filename, '_bord.asc');
+
+cols = 0;
+rows = 0;
+x_min = 0.;
+y_min = 0.;
+cellsize = 0;
+nodata = -9999;
+fid = fopen (ascfile);
+fid1 = fopen (edgefile, 'w');
+a1 = textscan (fid,'%s %d',1);
+cols = a1{2};
+a2 = textscan (fid,'%s %d',1);
+rows = a2{2};
+a3 = textscan (fid,'%s %f',1);
+x_min = a3{2};
+a4 = textscan (fid,'%s %f',1);
+y_min = a4{2};
+a5 = textscan (fid,'%s %f',1);
+cellsize = a5{2};
+a6 = textscan (fid,'%s %f',1);
+nodata = a6{2};
+fprintf (fid1,'%s  %d \n', 'ncols ', cols);
+fprintf (fid1,'%s  %d \n', 'nrows ', rows);
+fprintf (fid1,'%s  %f \n', 'xllcorner ', x_min);
+fprintf (fid1,'%s  %f \n', 'yllcorner ', y_min);
+fprintf (fid1,'%s  %f \n', 'cellsize ', cellsize);
+fprintf (fid1,'%s  %f \n', 'nodata_value ', nodata);
+
+x_max = x_min + cellsize * cols;
+y_max = y_min + cellsize * rows;
+
+Z = zeros(rows, cols);
+
+DATA = textscan(fid,'%f',-1);
+
+X = zeros (size (DATA));
+Y = zeros (size (DATA));
+min_DATA = 1e38;
+max_DATA = -1e37;
+for k = 1:size (DATA {1,1})
+%    fprintf ('%d \n', DATA {1:1}(k:k));
+    temp = DATA {1:1}(k:k);
+    if (temp < min_DATA)
+        min_DATA = DATA {1:1}(k:k);
+    end
+    if (temp > max_DATA)
+        max_DATA = DATA {1:1}(k:k);
+    end
+end
+k = 1;
+for i = 1:rows
+    for j = 1:cols
+        fprintf ('%u %u \n', i, j);
+        if (i==1 | j == 1 | j == cols)
+            Z (i, j) = max_DATA + 0.1;
+        elseif (i == rows)
+            Z (i, j) = min_DATA - 0.1;
+        else
+            Z (i, j) = DATA (k);
+        end
+        fprintf (fid1, '%d ', Z (i, j));
+        X (k) = x_min + cellsize * j;
+        Y (k) = y_min + cellsize * i;
+        k = k + 1;
+    end
+    fprintf (fid1, '\n');
+end
+
+fclose (fid);
+fclose (fid1);
