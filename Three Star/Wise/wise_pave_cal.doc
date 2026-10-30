@@ -1,0 +1,25 @@
+file title  : pavement data for Wise
+data type   : real
+file type   : ascii
+columns     : 24
+rows        : 59
+ref. system : plane
+ref. units  : m
+unit dist.  : 1
+min. X      : 0.5000000
+max. X      : 12.5000000
+min. Y      : 0.0000000
+max. Y      : 29.5000000
+pos'n error : unknown
+resolution  : 0.5000000
+min. value  : -9999.0000000
+max. value  : 100.0000000
+value units : unspecified
+value error : unknown
+flag value  : none
+flag def'n  : none
+legend cats : 0
+lineage     : This file was created by the WINDOW module with the command line: 
+lineage     : c:\documents and settings\wainwright\desktop\john\data\ncf\model and data from richard june 2002\wise\wise_inf.rst*C:\Documents and Settings\wainwright\Desktop\John\Data\NCF\Model and Data from Richard June 2002\Wise\tmp001.rst*1*1*1*24*59*0
+lineage     : This file was created by the CONVERT module with the command line: 
+lineage     : c:\documents and settings\wainwright\desktop\john\data\ncf\model and data from richard june 2002\wise\tmp001.rst*c:\documents and settings\wainwright\desktop\john\data\ncf\model and data from richard june 2002\wise\tmp001.rst*I*2*1*2

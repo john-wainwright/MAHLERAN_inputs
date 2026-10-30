@@ -1,0 +1,26 @@
+file format : IDRISI Raster A.1
+file title  : Surface Imported from SURFER
+data type   : real
+file type   : binary
+columns     : 24
+rows        : 59
+ref. system : plane
+ref. units  : m
+unit dist.  : 1.0000000
+min. X      : 0.0000000
+max. X      : 11.5000000
+min. Y      : 0.0000000
+max. Y      : 29.5000000
+pos'n error : unknown
+resolution  : unknown
+min. value  : -9999.0000000
+max. value  : 5.0000000
+display min : -9999.0000000
+display max : 5.0000000
+value units : unknown
+value error : unknown
+flag value  : -9999.0000000
+flag def'n  : user-designated replacement for SURFER blanking value of 1.7e+38
+legend cats : 0
+lineage     : This file was created by the SRFIDRIS module with the command line: 
+lineage     : 1*c:\john\programs\ncf\ncf master data files sept 2004\three star\wise\wisedem2.grd*c:\john\programs\ncf\ncf master data files sept 2004\three star\wise\wisedem2.rst*plane*m*-9999
