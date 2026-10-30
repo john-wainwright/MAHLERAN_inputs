@@ -1,0 +1,74 @@
+ ---------------------------------------------------
+ |               NCF Model v1.14                   |
+ |       (c) J. Wainwright January 2006            |
+ |contact J.Wainwright@sheffield.ac.uk for details |
+ |     Output time 12:59:48 on 02/09/06            |
+ ---------------------------------------------------
+
+ Topography read in from ..\hypoth_slope_5d_1_0_smooth3.asc                                              
+ Infiltration parameter type: deterministic or stochastic usin
+ Mean Ksat: 0.0000E+00 mm/h
+ Mean Ksat: 0.1080E+04 mm/h
+ Mean Ksat: 0.6120E+03 mm/h
+ Mean Ksat: 0.7200E+03 mm/h
+ Standard deviation of Ksat: 0.0000E+00
+ Standard deviation of Ksat: 0.8800E-02
+ Standard deviation of Ksat: 0.8300E-02
+ Standard deviation of Ksat: 0.8300E-02
+ Mean wetting-front suction: 0.7000E+02 mm
+ Mean wetting-front suction: 0.5000E+02 mm
+ Mean wetting-front suction: 0.5000E+02 mm
+ Mean wetting-front suction: 0.5000E+02 mm
+ Standard deviation of wetting-front suction: 0.0000E+00 mm
+ Standard deviation of wetting-front suction: 0.1000E+01 mm
+ Standard deviation of wetting-front suction: 0.1000E+01 mm
+ Standard deviation of wetting-front suction: 0.1000E+01 mm
+ Mean drainage parameter: 0.5000E-01 mm/h
+ Mean drainage parameter: 0.5000E-01 mm/h
+ Mean drainage parameter: 0.5000E-01 mm/h
+ Mean drainage parameter: 0.5000E-01 mm/h
+ S.d. drainage parameter: 0.0000E+00 mm/h
+ S.d. drainage parameter: 0.1000E+00 mm/h
+ S.d. drainage parameter: 0.1000E+00 mm/h
+ S.d. drainage parameter: 0.1000E+00 mm/h
+ Smith and Parlange (1978) infiltration model with ksat as parameterized in input file ..\hypoth_slope_1_0_ksat2.asc                                                   
+ Theta_0: 0.9000E-02 m/m
+ Theta_0: 0.2000E-02 m/m
+ Theta_0: 0.2000E-02 m/m
+ Theta_0: 0.2000E-02 m/m
+ Theta_sat: 0.3950E+00 m/m
+ Theta_sat: 0.5000E+00 m/m
+ Theta_sat: 0.5000E+00 m/m
+ Theta_sat: 0.5000E+00 m/m
+ Soil thickness: 0.1000E+01 m
+ Soil thickness: 0.1000E+01 m
+ Soil thickness: 0.1000E+01 m
+ Soil thickness: 0.1000E+01 m
+ Friction factor parameter type:                                                                    deterministic
+ Mean friction factor: 0.1200E+03
+ Mean friction factor: 0.2600E+02
+ Mean friction factor: 0.1200E+03
+ Mean friction factor: 0.1500E+01
+ Vegetation read in from file: ..\hypoth_slope_1_0_veg.asc                                                     
+ Rainfall model: 1. constant average rainfall  of   60.00 mm/h for 1800.00 s 
+ Flow routing using 4 flow directions 
+ Flow routing using Scoging Method 
+ Storm timestep:    1.00 s 
+ Particle density:    2.65 g/m3
+ Active layer sensitivity:  0.0000
+ Initial particle size fractions:
+                                  phi(1) = 0.000
+                                  phi(2) = 1.000
+                                  phi(3) = 0.000
+                                  phi(4) = 0.000
+                                  phi(5) = 0.000
+                                  phi(6) = 0.000
+
+ Nutrient parameter CS : ammonium, 0.3300E+02; nitrate, 0.1200E+02; phosphorus, 0.6100E+02
+ Mass-transfer coefficients : ammonium, 0.3000E-04; nitrate, 0.7000E-04; phosphorus, 0.4000E-04
+ Raindrop detachment a parameter: 0.2917E-07 0.5542E-06 0.3500E-06 0.5542E-06 0.5542E-07 0.5833E-08
+ Raindrop detachment b parameter: 0.1240E+01 0.1080E+01 0.7900E+00 0.7500E+00 0.7500E+00 0.5000E+00
+ Raindrop detachment c parameter: 0.2300E+00 0.2100E+00 0.1100E+00 0.1060E+01 0.1000E+00 0.1000E+00
+ Raindrop detachment maximum parameter: 0.1000E+04 0.1000E+04 0.1000E+04 0.1000E+04 0.1000E+04 0.1000E+04
+ Ksat multiplication factor: 0.1000E+01
+ Psi  multiplication factor: 0.1000E+01
