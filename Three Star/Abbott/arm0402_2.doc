@@ -1,0 +1,25 @@
+file title  : Window from arm0402 c: 1 r: 1 to c: 19 r: 35
+data type   : real
+file type   : ascii
+columns     : 19
+rows        : 35
+ref. system : plane
+ref. units  : m
+unit dist.  : 1
+min. X      : 0.5000000
+max. X      : 10.0000000
+min. Y      : 0.0000000
+max. Y      : 17.5000000
+pos'n error : unknown
+resolution  : 0.5000000
+min. value  : -9999.0000000
+max. value  : 0.0000000
+value units : unspecified
+value error : unknown
+flag value  : none
+flag def'n  : none
+legend cats : 0
+lineage     : This file was created by the WINDOW module with the command line: 
+lineage     : c:\documents and settings\wainwright\desktop\john\data\ncf\model and data from richard june 2002\abbott\arm0402.rst*c:\documents and settings\wainwright\desktop\john\data\ncf\model and data from richard june 2002\abbott\arm0402_2.rst*1*1*1*19*35*0
+lineage     : This file was created by the CONVERT module with the command line: 
+lineage     : c:\documents and settings\wainwright\desktop\john\data\ncf\model and data from richard june 2002\abbott\arm0402_2.rst*c:\documents and settings\wainwright\desktop\john\data\ncf\model and data from richard june 2002\abbott\arm0402_2.rst*I*2*1*2
