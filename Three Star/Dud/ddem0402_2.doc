@@ -1,0 +1,25 @@
+file title  : Window from ddem0402 c: 1 r: 1 to c: 8 r: 42
+data type   : real
+file type   : ascii
+columns     : 8
+rows        : 42
+ref. system : plane
+ref. units  : m
+unit dist.  : 1
+min. X      : 0.5000000
+max. X      : 4.5000000
+min. Y      : 0.0000000
+max. Y      : 14.6511628
+pos'n error : unknown
+resolution  : 0.5000000
+min. value  : 94.0000000
+max. value  : 100.0000000
+value units : unspecified
+value error : unknown
+flag value  : none
+flag def'n  : none
+legend cats : 0
+lineage     : This file was created by the WINDOW module with the command line: 
+lineage     : c:\documents and settings\wainwright\desktop\john\data\ncf\model and data from richard june 2002\dud\ddem0402.rst*c:\documents and settings\wainwright\desktop\john\data\ncf\model and data from richard june 2002\dud\ddem0403.rst*1*1*1*8*42*0
+lineage     : This file was created by the CONVERT module with the command line: 
+lineage     : c:\documents and settings\wainwright\desktop\john\data\ncf\model and data from richard june 2002\dud\ddem0403.rst*c:\documents and settings\wainwright\desktop\john\data\ncf\model and data from richard june 2002\dud\ddem0403.rst*I*2*1*2

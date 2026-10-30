@@ -1,0 +1,19 @@
+10
+#gstat ms-dos 1.9g (November 1996) [C:\Program Files\Idrisi32\mods\gstat.exe -t 787352 c:\documents and settings\wainwright\desktop\john\data\ncf\model and data from richard june 2002\jw-modified data files\dud\idrtmp1.cmd]
+#sample semivariogram
+#points(var1): 'c:\documents and settings\wainwright\desktop\john\data\ncf\model and data from richard june 2002\jw-modified data files\dud\dud_pave_semi', x=1, y=2, v=3, mv=0;
+#[1] mean: 57.3463 variance: 245.227
+#cutoff: 6.76791 interval width: 0.712514
+#direction: total 
+#   from       to  n_pairs   avdist semivariogram
+# 11
+       0   0.712514     1094 0.599389 174.085466179159
+0.712514   1.425028     1922  1.15384 206.794745057232
+ 1.42503   2.137542     3714  1.81998 204.294157242865
+ 2.13754   2.850056     3321  2.51751 210.123456790123
+ 2.85006    3.56257     3984   3.2153 236.255271084337
+ 3.56257   4.275084     3366  3.92814 226.231729055258
+ 4.27508   4.987598     2478  4.60266 218.783091202583
+  4.9876   5.700112     3080  5.29203 250.456818181818
+ 5.70011   6.412626     2386  6.01775 237.440695725063
+ 6.41263   6.767912     1449  6.56709 249.799861973775
