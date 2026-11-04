@@ -1,0 +1,26 @@
+file title  : 0924_fi3_ext10cm_kri_cut_nosink
+data type   : real
+file type   : ascii
+columns     : 11
+rows        : 22
+ref. system : plane
+ref. units  : m
+unit dist.  : 1
+min. X      : -0.500000
+max. X      : 4.50000
+min. Y      : -0.50000
+max. Y      : 10.00000
+pos'n error : unknown
+resolution  : 0.5000000
+min. value  : 0.073879
+max. value  : 0.363408
+value units : unspecified
+value error : unknown
+flag value  : none
+flag def'n  : none
+legend cats : 0
+lineage     : This file was created by surfer2idris.m program written by <olivier . planchon @ grignon . inra . fr>
+lineage     :  - 
+lineage     :  - 
+lineage     :  - 
+
