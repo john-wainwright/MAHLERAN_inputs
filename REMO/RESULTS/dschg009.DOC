@@ -1,0 +1,21 @@
+file title  : model output for discharge for param009.da
+data type   : real
+file type   : ascii
+columns     :  11
+rows        :  22
+ref. system : plane
+ref. units  : m
+unit dist.  : 1.0000000
+min. X      :            -0.5000
+max. X      :             4.5000
+min. Y      :            -0.5000
+max. Y      :            10.0000
+pos'n error : unknown
+resolution  :             0.4545
+display min :             0.0000
+display max :             0.0000
+value units :             0.0000
+ value error : unknown
+ flag value  : none
+ flag def'n  : none
+legend cats : 0
